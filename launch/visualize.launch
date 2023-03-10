@@ -1,0 +1,4 @@
+<launch>
+    <node name="error_init_pos" pkg="error_init_pos" type="marker_node" output="screen"/>
+	<!-- <node pkg="rviz" type="rviz" name="rviz" args="-d $(find error_init_pos)/rviz/local_pos_marker.rviz"/> -->
+</launch>
